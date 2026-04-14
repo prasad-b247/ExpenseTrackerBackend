@@ -9,6 +9,8 @@ app.use(cors({
 }));
 app.use(express.json());
 
+console.log("Testing CodeRabbit PR");
+
 // Health check route (optional but useful)
 app.get("/", (req, res) => {
   res.json({ message: "Backend is running 🚀" });
